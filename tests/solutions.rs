@@ -16,4 +16,4 @@ macro_rules! solution_day {
     };
 }
 
-// solution_day!(day1, "298", "158");
+solution_day!(day1, "2031679", "19678534");
