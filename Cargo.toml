@@ -1,0 +1,19 @@
+[package]
+name = "advent-of-rust-2024"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = true
+
+[dependencies]
+anyhow = "1.0.89"
+itertools = "0.13.0"
+paste = "1.0.15"
+rayon = "1.10.0"
+regex = "1.10.6"
+
+[dev-dependencies]
+assert_cmd = "2"
