@@ -25,3 +25,4 @@ solution_day!(day6, "5329", "2162");
 solution_day!(day7, "66343330034722", "637696070419031");
 solution_day!(day8, "394", "1277");
 solution_day!(day9, "6337921897505", "6362722604045");
+solution_day!(day10, "822", "1801");
